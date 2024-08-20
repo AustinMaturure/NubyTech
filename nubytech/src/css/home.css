@@ -24,9 +24,10 @@
 }
 
 .hero-text h1 {
-  font-size: 3rem;
   font-weight: bold;
+  font-size: 4rem;
   margin-bottom: 0;
+  font-family: "Gambetta";
 }
 
 .hero-text p {

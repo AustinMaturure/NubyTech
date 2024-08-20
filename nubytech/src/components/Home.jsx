@@ -12,12 +12,16 @@ function Home() {
         <div className="hero-text">
           <h1>Empower, Inovate, Transform.</h1>
           <p>
-            Nubytech stands at the intersection of empowering aspiring female
-            tech leaders and fostering entrepreneurial innovations. Our mission
-            is to bridge the gap between coding bootcamp education and
-            real-world job readiness, empowering female bootcamp graduates with
-            opportunities to work on impactful, real-world projects and
-            developing proof-of-concept tech solutions for entrepreneurs.
+            Nubytech stands at the intersection of{" "}
+            <span className="ital">
+              empowering aspiring female tech leaders
+            </span>{" "}
+            and fostering entrepreneurial innovations.{" "}
+            <span className="ital">Our mission</span> is to bridge the gap
+            between coding bootcamp education and real-world job readiness,
+            empowering female bootcamp graduates with opportunities to{" "}
+            <span className="ital">work on impactful, real-world projects</span>{" "}
+            and developing proof-of-concept tech solutions for entrepreneurs.
           </p>
         </div>
         <div className="hero-images">

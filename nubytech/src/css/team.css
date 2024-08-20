@@ -27,7 +27,7 @@
   justify-self: baseline;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .team-heading h1 {
@@ -42,20 +42,36 @@
   justify-content: center;
 }
 
+.contact div {
+  background-color: #725d68;
+  color: white;
+
+  padding: 1rem;
+}
+
 .contact h1 {
   font-size: 4rem;
+
   margin: 0px;
 }
 
 .contact p {
   font-size: 2rem;
   margin-top: 0px;
+  font-weight: bold;
 }
 
 .contact input {
-  font-size: 2rem;
+  font-size: 1rem;
   border: none;
-  border-bottom: 20px solid Pink;
+  font-family: "General Sans";
+  background-color: #725d68;
+  font-weight: bold;
+  border-bottom: 10px solid #e1e6e1;
+}
+
+.contact input::placeholder {
+  color: white;
 }
 .contact input:active {
   border: none;

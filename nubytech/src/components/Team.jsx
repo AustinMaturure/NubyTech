@@ -104,14 +104,16 @@ function Team() {
             </div>
           </div>
           <div className="contact">
-            <h1>Want To Say HI?</h1>
-            <p>What's Your Email?</p>
-            <input
-              type="email"
-              name=""
-              id=""
-              placeholder="Enter your email..."
-            />
+            <div>
+              <h1>Want To Say HI?</h1>
+              <p>What's Your Email?</p>
+              <input
+                type="email"
+                name=""
+                id=""
+                placeholder="Enter your email..."
+              />
+            </div>
           </div>
         </div>
       </section>

@@ -6,10 +6,13 @@ function Oppurtunities() {
   return (
     <>
       <section className="oppurtunities">
-        <h1>Oppurtunities</h1>
+        <h1 className="op-header">- Oppurtunities -</h1>
         <div className="oppurtunity">
           <div className="op-text">
-            <h1>Dream Builder</h1>
+            <h1>
+              {" "}
+              01.<span className="ital"> Dream</span> Builder
+            </h1>
             <p>
               Dream Builder is Nutbytech's effort to support women entrepreneurs
               by turning their innovative ideas into reality. This initiative
@@ -33,7 +36,7 @@ function Oppurtunities() {
           </div>
           <div className="op-text">
             <h1>
-              Code-<span className="ital">Her</span>-Future
+              02. Code-<span className="ital">Her</span>-Future
             </h1>
             <p>
               Code Her Future is an initiative by Nubytech designed for coding

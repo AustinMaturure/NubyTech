@@ -1,5 +1,6 @@
 .logo-name {
   font-family: "General Sans", sans-serif;
+  font-size: 1.5rem;
 }
 
 header {
@@ -18,9 +19,31 @@ nav ul {
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
+  font-family: "Gambetta";
+  font-weight: 400;
+}
+
+nav ul li {
+  padding: 6px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: #1f1f1f;
+  color: white;
 }
 
 .contact-btn-div {
   padding: 20px;
   border-left: 1px solid black;
+  background-color: #725d68;
+}
+
+.contact-btn-div button {
+  background-color: #725d68;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0px;
+  font-weight: bold;
+  font-family: "Gambetta";
 }

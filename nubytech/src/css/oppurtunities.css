@@ -1,3 +1,35 @@
 .oppurtunities {
   text-align: center;
 }
+
+.op-header {
+  font-size: 3.5rem;
+}
+
+.op-text button {
+  padding: 10px;
+  background-color: #725d68;
+  font-size: 1.1rem;
+  font-family: "Gambinno";
+  border-radius: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
+.op-text {
+  text-align: left;
+  padding: 2rem;
+}
+
+.op-img img {
+  box-shadow: 4px 4px #725d68;
+}
+
+.op-text h1 {
+  font-size: 3rem;
+}
+
+.op-text p {
+  font-weight: 500;
+}

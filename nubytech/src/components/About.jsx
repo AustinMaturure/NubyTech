@@ -24,7 +24,7 @@ function About() {
         <div>
           <section className="motifs">
             <div className="motif">
-              <div>
+              <div className="motif-img">
                 <img src={question} alt="" />
               </div>
               <div className="motif-text">
@@ -40,7 +40,7 @@ function About() {
             </div>
 
             <div className="motif">
-              <div>
+              <div className="motif-img">
                 <img src={target} alt="" />
               </div>
               <div className="motif-text">
@@ -54,16 +54,15 @@ function About() {
               </div>
             </div>
             <div className="motif">
-              <div>
+              <div className="motif-img">
                 <img src={bino} alt="" />
               </div>
               <div className="motif-text">
                 <h3>Vision</h3>
                 <p>
-                  Nubytech is dedicated to empowering and supporting emerging
-                  female tech leaders and entrepreneurs in Africa. We create
-                  opportunities for women to excel in tech, fostering innovation
-                  and inclusivity within the industry.
+                  To be a driving force for innovation in Africa by empowering
+                  the next generation of female tech leaders through a dynamic
+                  ecosystem of collaboration and support.
                 </p>
               </div>
             </div>

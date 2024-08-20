@@ -1,3 +1,12 @@
 ul {
   list-style: none;
 }
+
+body {
+  background-color: #fafaf9;
+  color: #1f1f1f;
+  font-family: "Gambetta";
+}
+button {
+  border: none;
+}
