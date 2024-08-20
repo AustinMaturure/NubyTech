@@ -1,0 +1,19 @@
+footer {
+  padding: 1rem;
+}
+.logo {
+  font-family: "General Sans";
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.infos {
+  display: flex;
+  gap: 2rem;
+}
+.connect {
+  display: flex;
+  justify-content: space-between;
+}

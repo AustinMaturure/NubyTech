@@ -1,0 +1,26 @@
+.logo-name {
+  font-family: "General Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.header-sect-1 {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.contact-btn-div {
+  padding: 20px;
+  border-left: 1px solid black;
+}
