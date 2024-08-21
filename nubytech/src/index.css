@@ -10,3 +10,78 @@ body {
 button {
   border: none;
 }
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+  .members {
+    display: flex;
+    overflow-x: scroll;
+    gap: 2rem;
+  }
+
+  .member {
+    min-width: 16rem;
+  }
+
+  .BHG {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .motifs {
+    flex-direction: column;
+  }
+  .motif {
+    border-left: none;
+    border-bottom: 1px solid white;
+  }
+  .motif:nth-child(3) {
+    border-bottom: none;
+  }
+
+  .oppurtunity {
+    flex-direction: column-reverse;
+  }
+  .hero-text {
+    padding: 1rem;
+  }
+  .about-text {
+    padding: 1rem;
+  }
+
+  .hero-images {
+    overflow-x: scroll;
+    padding: 1rem;
+  }
+
+  .hero-images div {
+    min-width: 10rem;
+  }
+
+  .op-text {
+    padding: 1rem;
+  }
+
+  .op-img {
+    max-width: none;
+    min-width: 100%;
+  }
+
+  .op-img img {
+    min-width: 100%;
+  }
+
+  .oppurtunity:first-child {
+    flex-direction: column-reverse;
+  }
+
+  .footer-info {
+    flex-direction: column;
+  }
+
+  .op-header {
+    font-size: 3rem;
+  }
+}

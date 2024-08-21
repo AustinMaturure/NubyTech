@@ -24,4 +24,5 @@ footer .logo h1 {
 .connect {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
