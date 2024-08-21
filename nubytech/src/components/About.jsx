@@ -28,7 +28,7 @@ function About() {
                 <img src={question} alt="" />
               </div>
               <div className="motif-text">
-                <h3>Why</h3>
+                <h3>Our Why</h3>
                 <p>
                   We believe in the immense potential of African women and are
                   committed to breaking down barriers to create meaningful
@@ -38,31 +38,31 @@ function About() {
                 </p>
               </div>
             </div>
+            <div className="motif">
+              <div className="motif-img">
+                <img src={bino} alt="" />
+              </div>
+              <div className="motif-text">
+                <h3>Our Vision</h3>
+                <p>
+                  To be a driving force for innovation in Africa by empowering
+                  the next generation of female tech leaders through a dynamic
+                  ecosystem of collaboration and support.
+                </p>
+              </div>
+            </div>
 
             <div className="motif">
               <div className="motif-img">
                 <img src={target} alt="" />
               </div>
               <div className="motif-text">
-                <h3>Mission</h3>
+                <h3>Our Mission</h3>
                 <p>
                   Nubytech is dedicated to empowering and supporting emerging
                   female tech leaders and entrepreneurs in Africa. We create
                   opportunities for women to excel in tech, fostering innovation
                   and inclusivity within the industry.
-                </p>
-              </div>
-            </div>
-            <div className="motif">
-              <div className="motif-img">
-                <img src={bino} alt="" />
-              </div>
-              <div className="motif-text">
-                <h3>Vision</h3>
-                <p>
-                  To be a driving force for innovation in Africa by empowering
-                  the next generation of female tech leaders through a dynamic
-                  ecosystem of collaboration and support.
                 </p>
               </div>
             </div>

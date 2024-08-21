@@ -1,3 +1,9 @@
+:root {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 ul {
   list-style: none;
 }
@@ -89,5 +95,9 @@ button {
 
   .op-header {
     font-size: 3rem;
+  }
+
+  .op-text p {
+    font-size: 1.2rem;
   }
 }

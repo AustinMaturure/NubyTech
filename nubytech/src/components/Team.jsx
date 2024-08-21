@@ -10,7 +10,7 @@ function Team() {
               <h2>Nobule</h2>
             </div>
             <div className="image">
-              <h2>01</h2>
+              <h2>NS</h2>
               <div className="member-img"></div>
             </div>
             <div className="role">Frontend Developer</div>
@@ -20,7 +20,7 @@ function Team() {
               <h2>Natasha</h2>
             </div>
             <div className="image">
-              <h2>02</h2>
+              <h2>NR</h2>
               <div className="member-img"></div>
             </div>
             <div className="role">Frontend Developer</div>
@@ -30,7 +30,7 @@ function Team() {
               <h2>Tumelo</h2>
             </div>
             <div className="image">
-              <h2>03</h2>
+              <h2>TW</h2>
               <div className="member-img"></div>
             </div>
             <div className="role">UI/UX Designer</div>
@@ -40,7 +40,7 @@ function Team() {
               <h2>Ofentse</h2>
             </div>
             <div className="image">
-              <h2>04</h2>
+              <h2>OL</h2>
               <div className="member-img"></div>
             </div>
             <div className="role">Social Media Manager</div>
@@ -50,7 +50,7 @@ function Team() {
               <h2>Austin</h2>
             </div>
             <div className="image">
-              <h2>05</h2>
+              <h2>AM</h2>
               <div className="member-img"></div>
             </div>
             <div className="role">Full-Stack Developer</div>
@@ -60,7 +60,7 @@ function Team() {
               <h2>Leche</h2>
             </div>
             <div className="image">
-              <h2>06</h2>
+              <h2>LA</h2>
               <div className="member-img"></div>
             </div>
             <div className="role">Frontend Developer</div>
@@ -70,7 +70,7 @@ function Team() {
               <h2>Karabo</h2>
             </div>
             <div className="image">
-              <h2>07</h2>
+              <h2>KM</h2>
               <div className="member-img"></div>
             </div>
             <div className="role">Frontend Developer</div>
@@ -80,7 +80,7 @@ function Team() {
               <h2>Thimna</h2>
             </div>
             <div className="image">
-              <h2>08</h2>
+              <h2>TA</h2>
               <div className="member-img"></div>
             </div>
             <div className="role">Frontend Developer</div>
@@ -90,7 +90,7 @@ function Team() {
               <h2>Kimberly</h2>
             </div>
             <div className="image">
-              <h2>09</h2>
+              <h2>KD</h2>
               <div className="member-img"></div>
             </div>
             <div className="role">Frontend Developer</div>

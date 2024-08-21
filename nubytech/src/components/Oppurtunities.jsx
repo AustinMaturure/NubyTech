@@ -6,7 +6,7 @@ function Oppurtunities() {
   return (
     <>
       <section className="oppurtunities">
-        <h1 className="op-header">- Oppurtunities -</h1>
+        <h1 className="op-header">Oppurtunities</h1>
         <div className="oppurtunity">
           <div className="op-text">
             <h1>

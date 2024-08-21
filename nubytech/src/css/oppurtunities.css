@@ -4,16 +4,25 @@
 
 .op-header {
   font-size: 3.5rem;
+  font-family: "Gambetta";
+  text-decoration: underline 6px solid #725d68;
 }
 
 .op-text button {
-  padding: 10px;
-  background-color: #725d68;
+  padding: 6px;
+  color: #725d68;
+  border: 4px solid #725d68;
   font-size: 1.1rem;
-  font-family: "Gambinno";
-  border-radius: 16px;
+  font-family: "Switzer";
+  background-color: white;
+  border-radius: 22px;
   font-weight: bold;
   cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+
+.op-text button:hover {
+  background-color: #725d68;
   color: white;
 }
 
@@ -24,15 +33,24 @@
 
 .op-img img {
   box-shadow: 4px 4px #725d68;
+  transition: 1s;
+}
+
+.op-img img:hover {
+  box-shadow: 6px 6px #725d68;
+  margin-bottom: 4px;
+  margin-left: 6px;
 }
 
 .op-text h1 {
   font-size: 3rem;
+  margin-bottom: 0px;
 }
 
 .op-text p {
-  font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  font-family: "Gambetta";
 }
 
 .oppurtunity {

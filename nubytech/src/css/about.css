@@ -52,6 +52,7 @@
 
 .motif-text p {
   font-weight: 500;
+  font-family: "Switzer";
 }
 
 .BHG {
@@ -68,7 +69,10 @@
   color: white;
   padding: 1rem;
 }
-
+.scope p {
+  font-family: "Switzer";
+  font-weight: bold;
+}
 .scope h1 {
   font-size: 5rem;
   margin: 0px;
@@ -77,6 +81,8 @@
 .scope-text {
   flex: 1;
   font-size: 2rem;
+  font-family: "Switzer";
+  color: #252525;
 }
 
 .motif-img {
