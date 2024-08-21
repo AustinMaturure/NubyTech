@@ -6,6 +6,7 @@ body {
   background-color: #fafaf9;
   color: #1f1f1f;
   font-family: "Gambetta";
+  margin: 0px;
 }
 button {
   border: none;
@@ -49,6 +50,11 @@ button {
   }
   .about-text {
     padding: 1rem;
+  }
+
+  .infos {
+    flex-direction: column;
+    gap: 0.5rem;
   }
 
   .hero-images {

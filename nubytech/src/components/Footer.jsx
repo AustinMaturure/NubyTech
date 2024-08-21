@@ -3,7 +3,6 @@ import igImg from "../assets/ig.svg";
 import wpImg from "../assets/wp.svg";
 import fbImg from "../assets/fb.svg";
 import ttImg from "../assets/tt.svg";
-import ytImg from "../assets/yt.svg";
 
 function Footer() {
   return (
@@ -39,7 +38,6 @@ function Footer() {
               <img src={wpImg} alt="WhatsApp" />
               <img src={fbImg} alt="Facebook" />
               <img src={ttImg} alt="Twitter" />
-              <img src={ytImg} alt="YouTube" />
             </div>
           </div>
         </div>
