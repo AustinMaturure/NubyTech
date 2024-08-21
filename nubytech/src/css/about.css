@@ -4,7 +4,7 @@
 
 .about-text {
   padding: 3rem;
-  background-color: #725d68;
+  background-color: #eb3f57;
   font-family: "unset";
   color: white;
 }
@@ -15,7 +15,7 @@
 
 .ital {
   font-style: italic;
-  text-decoration: underline 3px #a8b4a5;
+  text-decoration: underline 3px #3febca;
 }
 
 .motifs {
@@ -23,7 +23,7 @@
   padding: 1rem;
   justify-content: space-between;
   align-items: center;
-  background-color: #1f1f1f;
+  background-color: #4a4a4a;
   gap: 1rem;
 }
 
@@ -64,7 +64,7 @@
 .scope {
   flex: 1;
   border-radius: 22px;
-  background-color: #725d68;
+  background-color: #eb3f57;
   color: white;
   padding: 1rem;
 }

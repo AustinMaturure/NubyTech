@@ -8,7 +8,7 @@
 
 .op-text button {
   padding: 10px;
-  background-color: #725d68;
+  background-color: #eb3f57;
   font-size: 1.1rem;
   font-family: "Gambinno";
   border-radius: 16px;
@@ -23,7 +23,7 @@
 }
 
 .op-img img {
-  box-shadow: 4px 4px #725d68;
+  box-shadow: 4px 4px #eb3f57;
 }
 
 .op-text h1 {

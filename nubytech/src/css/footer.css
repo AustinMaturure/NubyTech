@@ -1,13 +1,13 @@
 footer {
   padding: 1rem;
-  background-color: #1f1f1f;
+  background-color: #4a4a4a;
   color: white;
 }
 .logo {
   font-family: "General Sans";
 }
 footer .logo h1 {
-  text-decoration: underline 4px #725d68;
+  text-decoration: underline 4px #eb3f57;
 }
 .s-links {
   filter: invert(1);

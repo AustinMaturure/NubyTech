@@ -29,18 +29,18 @@ nav ul li {
 }
 
 nav ul li:hover {
-  background-color: #1f1f1f;
+  background-color: #4a4a4a;
   color: white;
 }
 
 .contact-btn-div {
   padding: 20px;
   border-left: 1px solid black;
-  background-color: #725d68;
+  background-color: #eb3f57;
 }
 
 .contact-btn-div button {
-  background-color: #725d68;
+  background-color: #eb3f57;
   color: white;
   font-size: 1.2rem;
   padding: 0px;
