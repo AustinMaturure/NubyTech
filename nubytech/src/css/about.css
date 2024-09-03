@@ -5,7 +5,6 @@
 .about-text {
   padding: 3rem;
   background-color: #725d68;
-
   color: white;
 }
 
@@ -19,7 +18,9 @@
 }
 
 .motifs {
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
   padding: 1rem;
   justify-content: space-between;
   align-items: center;
@@ -32,7 +33,6 @@
   flex-direction: column;
   justify-content: center;
   border-left: 1px solid white;
-
   color: white;
   padding: 1rem;
 }
@@ -46,6 +46,11 @@
   filter: invert(1);
 }
 
+.motif-text.in-view p {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
 .motif-text h3 {
   font-size: 1.5rem;
 }
@@ -53,6 +58,9 @@
 .motif-text p {
   font-weight: 500;
   font-family: "Switzer";
+  transform: translateY(20px);
+  opacity: 0;
+  transition: all 2s ease-in-out;
 }
 
 .BHG {
@@ -69,6 +77,7 @@
   color: white;
   padding: 1rem;
 }
+
 .scope p {
   font-family: "Switzer";
   font-weight: bold;
@@ -83,6 +92,14 @@
   font-size: 2rem;
   font-family: "Switzer";
   color: #252525;
+  transform: translateX(20px);
+  transition: all 3s ease;
+  opacity: 0;
+}
+
+.scope-text.in-view {
+  transform: translateX(0px);
+  opacity: 1;
 }
 
 .motif-img {

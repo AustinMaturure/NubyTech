@@ -2,8 +2,14 @@ import "../css/about.css";
 import question from "../assets/question.svg";
 import target from "../assets/target.svg";
 import bino from "../assets/binoculars.svg";
+import useElementInView from "../utils/ElementInView";
+import CountUp from "react-countup";
 
 function About() {
+  const motifTextRef = useElementInView(".motif-text");
+  const scopeRef = useElementInView(".scope");
+  const scopeTextRef = useElementInView(".scope-text");
+
   return (
     <>
       <section className="about">
@@ -27,14 +33,13 @@ function About() {
               <div className="motif-img">
                 <img src={question} alt="" />
               </div>
-              <div className="motif-text">
+              <div className="motif-text" ref={motifTextRef.ref}>
                 <h3>Our Why</h3>
                 <p>
                   We believe in the immense potential of African women and are
-                  committed to breaking down barriers to create meaningful
-                  opportunities. Our goal is to equip women with the skills and
-                  resources they need to lead and drive change in the tech
-                  sector.
+                  committed to breaking down barriers to create opportunities.
+                  Our goal is to equip women with the skills and resources they
+                  need to lead and drive change in the tech sector.
                 </p>
               </div>
             </div>
@@ -69,13 +74,15 @@ function About() {
           </section>
         </div>
         <section className="BHG">
-          <div className="scope">
+          <div className="scope" ref={scopeRef.ref}>
             <p>our plans...</p>
-            <h1>500 MVP's</h1>
+            <h1>
+              {scopeRef.inView ? <CountUp end={500} duration={5} /> : 0} + MVP's
+            </h1>
             <p>for when?</p>
-            <h1>2030</h1>
+            <h1>20{scopeRef.inView ? <CountUp end={30} duration={5} /> : 0}</h1>
           </div>
-          <div className="scope-text">
+          <div className="scope-text" ref={scopeTextRef.ref}>
             <h4>
               We're on a journey to create 500 innovative MVPs for entrepreneurs
               across the continent, providing robust proof-of-concept solutions
