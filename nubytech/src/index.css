@@ -38,6 +38,7 @@ button {
   }
 
   .motifs {
+    display: flex;
     flex-direction: column;
   }
   .motif {
