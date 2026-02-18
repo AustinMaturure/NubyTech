@@ -10,7 +10,7 @@ function Projects() {
             <img src={repair} alt="" /> Rome Wasn't Built in a Day, We're
             working on something exciting!
           </h1>
-          <h2>Check back soon to see our amzing projects...</h2>{" "}
+          <h2>Check back soon to see our amazing projects...</h2>{" "}
         </div>
       </section>
     </>
