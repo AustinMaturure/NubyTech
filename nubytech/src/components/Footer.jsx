@@ -30,7 +30,7 @@ function Footer() {
         </div>
         <hr />
         <div className="connect">
-          <p>connect with us on social media</p>
+          <p>Connect with us on social media</p>
           <div>
             <div className="s-links">
               <img src={igImg} alt="Instagram" />
